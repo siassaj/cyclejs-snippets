@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: cyclejs#model
+# key: model
+# --
+import xs from 'xstream'
+
+function intent(sources) {
+  const DOM = sources.DOM
+
+  return {
+  }
+}
+
+export default intent
