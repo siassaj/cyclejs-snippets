@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: cyclejs#import-isolate
+# key: impisolate
+# --
+import isolate from '@cycle/isolate'

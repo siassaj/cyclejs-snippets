@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: cyclejs#import-xs
+# key: impxs
+# --
+import xs from 'xstream'

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: cyclejs#import-proxy
+# key: impproxy
+# --
+import proxy from 'cycle-proxy/xstream'
