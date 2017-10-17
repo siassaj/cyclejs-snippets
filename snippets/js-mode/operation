@@ -1,4 +1,5 @@
 # -*- mode: snippet -*-
+# Skeleton for generic operation functions
 # name: cyclejs#operation
 # key: cycleoperation
 # --
@@ -6,10 +7,8 @@ import xs from 'xstream'
 
 function $1(actions) {
 
-  ${2:const $3 = $0}
-
   return xs.merge(
-    {$3}
+    xs.empty()
   )
 }
 

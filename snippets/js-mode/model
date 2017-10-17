@@ -1,15 +1,13 @@
 # -*- mode: snippet -*-
+# Skeleton for model function
 # name: cyclejs#model
 # key: cyclemodel
 # --
 import xs from 'xstream'
 
 function model(actions) {
-
-  ${1:const $2 = $0}
-
   return xs.merge(
-    ${2}
+    xs.empty()
   )
 }
 
