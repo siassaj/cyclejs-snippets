@@ -6,10 +6,10 @@ import xs from 'xstream'
 
 function $1(actions) {
 
-  const $2 = $0
+  ${2:const $3 = $0}
 
   return xs.merge(
-    {$2}
+    {$3}
   )
 }
 

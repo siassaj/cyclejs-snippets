@@ -9,7 +9,7 @@ function view(state$) {
   return xs.combine(...arguments).map(([
     state
   ]) => {
-    return div('Hello World')
+    return div($0)
   })
 }
 
