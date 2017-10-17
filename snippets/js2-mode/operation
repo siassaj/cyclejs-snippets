@@ -4,11 +4,11 @@
 # --
 import xs from 'xstream'
 
-function model(actions) {
+function $1(actions) {
 
   return xs.merge(
 
   )
 }
 
-export default model
+export default {$1}

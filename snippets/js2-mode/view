@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: cyclejs#view
+# key: cycleview
+# --
+import xs      from 'xstream'
+import { div } from '@cycle/dom'
+
+function view(state$) {
+  return xs.combine(...arguments).map(([
+    state
+  ]) => {
+    return div('Hello World')
+  })
+}
+
+export default view

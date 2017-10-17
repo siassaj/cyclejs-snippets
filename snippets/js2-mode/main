@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: cyclejs#main
-# key: main
+# key: cyclemain
 # --
 import xs     from 'xstream'
 
