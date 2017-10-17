@@ -6,8 +6,10 @@ import xs from 'xstream'
 
 function model(actions) {
 
-  return xs.merge(
+  const $1 = $0
 
+  return xs.merge(
+    ${1}
   )
 }
 

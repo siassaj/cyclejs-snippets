@@ -8,6 +8,9 @@ function intent(sources) {
   const DOM = sources.DOM
 
   return {
+
+  $1: $0,
+
   }
 }
 

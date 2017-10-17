@@ -1,13 +1,15 @@
 # -*- mode: snippet -*-
-# name: cyclejs#model
-# key: cyclemodel
+# name: cyclejs#operation
+# key: cycleoperation
 # --
 import xs from 'xstream'
 
 function $1(actions) {
 
-  return xs.merge(
+  const $2 = $0
 
+  return xs.merge(
+    {$2}
   )
 }
 
